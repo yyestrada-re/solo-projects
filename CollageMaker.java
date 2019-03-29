@@ -11,14 +11,11 @@ public class CollageMaker
         Picture canvasPic = new Picture("400x400.jpg");        
         Pixel[][] canvas = canvasPic.getPixels2D();        
 
-        Pixel[][] aPic = (new Picture("rsz_roach.jpg")).getPixels2D();
-        Pixel[][] bPic = (new Picture("savage.jpg")).getPixels2D();
-        Pixel[][] cPic = (new Picture("download.jpg")).getPixels2D();
-        Pixel[][] dPic = (new Picture("eh.jpg")).getPixels2D();
-        Pixel[][] dab = (new Picture("um.jpg")).getPixels2D();
-        
-	//This will be on your quiz on Friday
-	//Pixel[][] facePic = (new Picture("face.jpg")).getPixels2D();
+        Pixel[][] aPic = (new Picture("rsz_roach.jpg")).getPixels2D(); // image file may be changed 
+        Pixel[][] bPic = (new Picture("savage.jpg")).getPixels2D(); // image file may be changed
+        Pixel[][] cPic = (new Picture("download.jpg")).getPixels2D(); // image file may be changed
+        Pixel[][] dPic = (new Picture("eh.jpg")).getPixels2D(); // image file may be change
+        Pixel[][] dab = (new Picture("um.jpg")).getPixels2D(); //image file may be changed
 	
 	//A pic
 	for(int r = 0; r < aPic.length; r++) { // row
